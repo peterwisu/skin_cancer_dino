@@ -1,0 +1,23 @@
+# folder containing dataset
+./test_data/*
+./train_data/*
+./vali_data/*
+# log 
+./tensorboard/*
+./training_logs/*
+#cache
+./__pycache__/*
+
+# file format
+*.jpg
+*.tsv
+*.png
+*.pbtxt
+*.0
+*.pth
+
+# Exception
+!img/*
+!img/heatmap1.png
+!img/heatmap2.png
+
